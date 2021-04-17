@@ -1,23 +1,33 @@
 #main {
-
+    background-color: #cc6699; 
+    text-align: center;
 }
 
 #title {
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #img-div {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #cc8899;
 }
 
 #img {
-
+    max-width: 100%;
+    height: auto;
+    margin: 1%;
 }
 
-#img-caption {
-
+#list-start {
+    font-weight:bolder;
 }
 
-#tribute-link {
-
+ul {
+    margin: 0% 30% 0% 30%;
+    display: flex;
+    flex-direction: column;
+    list-style-position: inside;
+    align-items: flex-start;
 }
