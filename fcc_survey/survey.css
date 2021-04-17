@@ -1,0 +1,23 @@
+html {
+    background-color: #724c74;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#title-header {
+    text-align: center;
+    color: rgb(241, 228, 228);
+}
+
+#subheader {
+    text-align: center;
+    color: white;
+}
+
+#form-div {
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5% 0 5%;
+    padding: 2% 10% 2% 10%;
+    align-items: flex-start;
+}
